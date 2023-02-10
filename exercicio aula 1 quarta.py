@@ -27,7 +27,6 @@ while True:
             continue
         quant = int(input("Quantos dados deseja inserir: "))#quantidade de dados que a pessoa deseja inserir
             
-
         while count <= quant:#loop para inserir os dados na lista
             if variavel == 1:
                 valor = int(input("digite um numero: "))
@@ -39,7 +38,6 @@ while True:
                 print()
                 banco.append(valor)
                 count += 1
-
 
         posicao = 0
         for i in range(len(banco)):#loop para criar uma lista com o mesmo tamanho da lista banco
